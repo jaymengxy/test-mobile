@@ -28,6 +28,12 @@ and Activities and Fragments
 
 - Open in **Android Studio**, build the project and run 'app'
 
+- If you have `Task :app:kaptDebugKotlin FAILED` problem, you can update your `Gradle JDK Version` here:
+
+    `Android Studio > Preferences... > Build, Execution, Deployment > Build Tools > Gradle > Gradle JDK`
+
+    and select Gradle JDK 11.
+
 ## TODO
 
 - Use Paging LoadStateAdapter to displaying LoadState.
